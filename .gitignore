@@ -1,0 +1,5 @@
+*apikey.py
+__pycache__/
+issue_api.sh
+test.sh
+api_keys.json
