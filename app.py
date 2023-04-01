@@ -5,12 +5,14 @@ import secrets
 import json
 from api_key_manager import APIKeyManager
 
+from dotenv import load_dotenv
 
+#d* load environment variables
 api_key_manager = APIKeyManager()
-
+load_dotenv()
 
 app = Flask(__name__)
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 
 system_prompt = "You are a helpful assistant."
