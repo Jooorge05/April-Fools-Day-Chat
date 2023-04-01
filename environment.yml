@@ -1,0 +1,12 @@
+name: py39
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas=1.5.1
+  - numba=0.56.3
+  - scipy=1.9.3
+  - matplotlib=3.5.3
+  - notebook=6.5.2
+  - tqdm=4.64
+prefix: /home/user/miniconda3/envs/py39
